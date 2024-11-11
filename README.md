@@ -1,4 +1,4 @@
-# ***Resources Allocation in The Edge Computing Environment Using Reinforcement Learning***
+# ***Optimal Edge resource utilization-Reinforcement learning for task offloading***
 
 ## Summary
 The cloud computing based mobile applications, such as augmented reality (AR), face recognition, and object recognition have become popular in recent years. However, cloud computing may cause high latency and increase the backhaul bandwidth consumption because of the remote execution. To address these problems, edge computing can improve response times and relieve the backhaul pressure by moving the storage and computing resources closer to mobile users.
