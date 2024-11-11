@@ -130,9 +130,9 @@ SCREEN_RENDER = True / False
 + Reward
   + **Total processed tasks** in each step
 
-+ Model Architecture
 
-  ![ddpg architecture](image/DDPG_architecture.png)
+
+ 
 
 ***
 
@@ -143,31 +143,7 @@ SCREEN_RENDER = True / False
   + Each edge server can provide at most 4 task processing services.
   + 3000 steps/episode, 90000 sec/episode
 
-+ Result
-    | Number of Clients | Average Total proccessed tasks in the last 10 episodes| Training History |
-    | :-------: | :--------: | :--------: |
-    | 10 | 11910 | ![result](output/ddpg_10u10e4lKAIST/rewards.png) |
-    | 20 | 23449 | ![result](output/ddpg_20u10e4lKAIST/rewards.png) |
-    | 30 | 33257 | ![result](output/ddpg_30u10e4lKAIST/rewards.png) |
-    | 40 | 40584 | ![result](output/ddpg_40u10e4lKAIST/rewards.png) |
+
 
 ***
 
-## Demo
-
-+ Demo Environment
-
-  + 35 mobile users and 10 edge servers in the environment
-  + Each edge server can provide at most 4 task processing services.
-
-+ Demo Video
-
-  ![demo video](image/dm.mov)
-
-***
-
-## Reference
-
-+ Mobility Data
-  
-  [Mongnam Han, Youngseok Lee, Sue B. Moon, Keon Jang, Dooyoung Lee, CRAWDAD dataset kaist/wibro (v. 2008‑06‑04), downloaded from https://crawdad.org/kaist/wibro/20080604, https://doi.org/10.15783/C72S3B, Jun 2008.](https://crawdad.org/kaist/wibro/20080604)
